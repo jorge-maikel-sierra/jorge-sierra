@@ -5,27 +5,11 @@
 # follows official upstream conventions:
 # https://www.drupal.org/docs/develop/using-composer
 
-# Ignorar los archivos de configuración que puedan contener información sensible
-
-
-# Ignorar rutas que puedan contener contenido generado por el usuario
-
-# Ignore paths that may contain temporary files
-/web/sites/*/translations
-/web/sites/*/tmp
-/web/sites/*/cache
 
 
 # Ignore vendor dependencies and scripts
 vendor
-composer.phar
-composer
-robo.phar
-robo
-drush.phar
-drush
-drupal.phar
-drupal
+
 
 # Omitir Configuracion .ddev
 .ddev

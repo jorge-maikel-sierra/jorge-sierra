@@ -1,16 +1,3 @@
-# gitignore template for Drupal 8 projects
-#
-# earlier versions of Drupal are tracked in `community/PHP/`
-#
-# follows official upstream conventions:
-# https://www.drupal.org/docs/develop/using-composer
-
-
-
-# Ignore vendor dependencies and scripts
-vendor
-
-
 # Omitir Configuracion .ddev
 .ddev
 
@@ -20,3 +7,45 @@ vendor
 # Omitir configuracion .gitattributes
 .gitattributes
 
+# Ignorar los volcados de base de datos SQL por defecto
+*.sql
+*.sql.gz
+/db-backups/
+
+# Ignorar rutas que puedan contener archivos temporales
+/web/sites/*/translations
+/web/sites/*/tmp
+/web/sites/*/cache
+
+# Ignorar archivos de configuración que puedan contener información sensible
+/web/sites/*/*settings*.php
+/web/sites/*/*services*.yml
+
+# Ignorar rutas que puedan contener contenido generado por el usuario
+/web/sites/*/private
+/web/sites/*/files-private
+
+# Ignore drupal core (si no versiona las fuentes de drupal)
+/web/modules/README.txt
+/web/profiles/README.txt
+/web/sites/README.txt
+/web/themes/README.txt
+/web/.csslintrc
+/web/.editorconfig
+/web/.eslintignore
+/web/.eslintrc.json
+/web/.gitattributes
+/web/INSTALL.txt
+/web/LICENSE.txt
+/web/README.txt
+
+# Ignorar dependencias y scripts de proveedores
+/vendor
+/composer.phar
+/composer
+/robo.phar
+/robo
+/drush.phar
+/drush
+/drupal.phar
+/drupal

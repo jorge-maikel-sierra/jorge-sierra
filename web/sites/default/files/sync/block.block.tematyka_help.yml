@@ -1,0 +1,22 @@
+uuid: 4845c4e9-53f5-4c11-9380-f3bc116c3fe1
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - tematyka
+_core:
+  default_config_hash: kev1SpLUy_MpyRQrChLuY2lPO7fUYAxeSDmSInbqBJk
+id: tematyka_help
+theme: tematyka
+region: content
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

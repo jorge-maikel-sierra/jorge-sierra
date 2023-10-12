@@ -1,0 +1,20 @@
+uuid: acbde2db-5e01-429f-936b-9ef5a78630cb
+langcode: en
+status: true
+dependencies:
+  theme:
+    - tematyka
+_core:
+  default_config_hash: zeYz4kn3TgEDry3qNpOnnpoxVR4r_U_oTtHdMpaQQ_Y
+id: tematyka_local_actions
+theme: tematyka
+region: content
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

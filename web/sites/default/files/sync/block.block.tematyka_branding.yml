@@ -1,0 +1,25 @@
+uuid: 0f47740d-fef3-424a-b4c7-1601834864c7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tematyka
+_core:
+  default_config_hash: mk0EEM0J9NZq0Svk0dy46YQh0EHWe3FvO4sEmy4u-Qc
+id: tematyka_branding
+theme: tematyka
+region: nav_branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

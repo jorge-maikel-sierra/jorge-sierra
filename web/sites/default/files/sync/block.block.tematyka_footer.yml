@@ -1,0 +1,27 @@
+uuid: 1e11b406-8d04-4144-8c20-3b6652531e9f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - tematyka
+_core:
+  default_config_hash: jqZIxWUQYX4jT1mCyRytSB-2Czeq_0VS19rKre_7AP0
+id: tematyka_footer
+theme: tematyka
+region: footer
+weight: -6
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Footer
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

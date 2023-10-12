@@ -1,0 +1,20 @@
+uuid: 688c37b5-0026-485a-8ac8-2e8a32776a6c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - tematyka
+_core:
+  default_config_hash: 14mQbJsa4Bba59WaTOCz6M6WQyj3s6qEQofLmDwVrXU
+id: tematyka_page_title
+theme: tematyka
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

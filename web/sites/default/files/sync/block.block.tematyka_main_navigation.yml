@@ -1,5 +1,5 @@
-uuid: a712b2bc-b9f8-465d-bc89-5ace86f18d9a
-langcode: es
+uuid: 5be8a357-c7e9-4885-81d7-1058ad005a28
+langcode: en
 status: true
 dependencies:
   config:
@@ -7,21 +7,21 @@ dependencies:
   module:
     - system
   theme:
-    - olivero
+    - tematyka
 _core:
-  default_config_hash: KWAiziL39uEzmOJEql_wbUP2RtqGceL3WM2CfxhMelE
-id: olivero_main_menu
-theme: olivero
-region: primary_menu
+  default_config_hash: jogM899GpbKJ_26oA1s3cPAmaAWQlIqLP2eW6t87p5M
+id: tematyka_main_navigation
+theme: tematyka
+region: nav_main
 weight: 0
 provider: null
 plugin: 'system_menu_block:main'
 settings:
   id: 'system_menu_block:main'
-  label: 'Navegación principal'
+  label: 'Main navigation'
   label_display: '0'
   provider: system
   level: 1
-  depth: 2
+  depth: 0
   expand_all_items: true
 visibility: {  }

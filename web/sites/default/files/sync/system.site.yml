@@ -4,7 +4,7 @@ langcode: es
 uuid: 2d597bc6-f356-4029-b98d-9e7f4ccee977
 name: 'Jorge Sierra'
 mail: dev@jorgesierra.dev
-slogan: ''
+slogan: 'Blog personal donde escribo sobre temas de tecnologia y tutoriales.'
 page:
   403: ''
   404: ''
@@ -12,3 +12,4 @@ page:
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: es
+mail_notification: dev@jorgesierra.dev

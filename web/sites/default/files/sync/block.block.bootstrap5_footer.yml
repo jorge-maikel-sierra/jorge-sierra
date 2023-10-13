@@ -1,5 +1,5 @@
 uuid: c2fec267-d918-49f7-a4fe-efd6cd499d46
-langcode: en
+langcode: es
 status: true
 dependencies:
   config:
@@ -18,7 +18,7 @@ provider: null
 plugin: 'system_menu_block:footer'
 settings:
   id: 'system_menu_block:footer'
-  label: Footer
+  label: 'Pie de página'
   label_display: '0'
   provider: system
   level: 1

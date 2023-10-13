@@ -1,0 +1,29 @@
+uuid: 43bf200b-51e9-4e93-8765-0e9cceb40ede
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_portada
+    - media.type.image
+    - node.type.article
+id: node.article.field_portada
+field_name: field_portada
+entity_type: node
+bundle: article
+label: Portada
+description: 'Esta será la portada principal de los artículos.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: name
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

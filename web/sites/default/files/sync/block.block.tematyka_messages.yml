@@ -1,5 +1,5 @@
 uuid: fe1a2ebc-90bd-42e5-ab6a-102c49fbed2c
-langcode: en
+langcode: es
 status: true
 dependencies:
   module:
@@ -16,7 +16,7 @@ provider: null
 plugin: system_messages_block
 settings:
   id: system_messages_block
-  label: Messages
+  label: Mensajes
   label_display: '0'
   provider: system
 visibility: {  }

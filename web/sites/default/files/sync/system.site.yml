@@ -1,10 +1,10 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
-uuid: 955219c9-3fd3-4243-bbf0-448a420679d2
+uuid: ad5944a4-4e6c-4d81-902c-112e2ce13ca9
 name: 'Jorge Sierra'
 mail: dev@jorgesierra.dev
-slogan: 'Blog personal donde escribo sobre temas de tecnologia y tutoriales.'
+slogan: ''
 page:
   403: ''
   404: ''

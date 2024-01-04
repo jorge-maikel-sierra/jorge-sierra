@@ -1,15 +1,17 @@
-uuid: 27f5cb88-3da8-44c7-98cd-f98ea048f68f
-langcode: es
+uuid: 3183ec69-3e23-4011-b1cd-cf012e897cde
+langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.article.body
     - field.field.node.article.comment
-    - field.field.node.article.field_portada
+    - field.field.node.article.field_image
     - field.field.node.article.field_tags
+    - image.style.medium
     - node.type.article
   module:
+    - image
     - text
     - user
 _core:
@@ -25,16 +27,18 @@ content:
     settings:
       trim_length: 600
     third_party_settings: {  }
-    weight: 1
+    weight: 0
     region: content
-  field_portada:
-    type: entity_reference_entity_view
+  field_image:
+    type: image
     label: hidden
     settings:
-      view_mode: default
-      link: true
+      image_style: medium
+      image_link: content
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
-    weight: 0
+    weight: -1
     region: content
   field_tags:
     type: entity_reference_label
@@ -42,13 +46,12 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 2
+    weight: 10
     region: content
   links:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 3
+    weight: 100
     region: content
 hidden:
   comment: true
-  langcode: true
+  field_image: true
+  field_tags: true

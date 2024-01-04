@@ -1,5 +1,5 @@
-uuid: fee4e8c7-878f-45e2-af7c-599677745470
-langcode: es
+uuid: 5e924c00-4a44-4356-a37d-0aa327745aa8
+langcode: en
 status: true
 dependencies:
   config:
@@ -9,14 +9,13 @@ dependencies:
     - contact
     - file
     - filter
-    - media
     - search
     - shortcut
     - system
 _core:
   default_config_hash: cFrlqjtkTfvY3RGccjJkPf1SGIfJ942IrxTLWAO4mgA
 id: authenticated
-label: 'Usuario autenticado'
+label: 'Authenticated user'
 weight: 1
 is_admin: false
 permissions:
@@ -29,4 +28,3 @@ permissions:
   - 'search content'
   - 'skip comment approval'
   - 'use text format basic_html'
-  - 'view media'

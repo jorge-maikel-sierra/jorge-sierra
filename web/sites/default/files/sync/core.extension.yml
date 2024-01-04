@@ -1,10 +1,6 @@
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
-langcode: es
 module:
-  admin_toolbar: 0
-  admin_toolbar_links_access_filter: 0
-  admin_toolbar_tools: 0
   automated_cron: 0
   big_pipe: 0
   block: 0
@@ -23,16 +19,10 @@ module:
   field_ui: 0
   file: 0
   filter: 0
-  gin_toolbar: 0
   help: 0
   history: 0
   image: 0
-  inline_form_errors: 0
-  language: 0
   link: 0
-  locale: 0
-  media: 0
-  media_library: 0
   menu_link_content: 0
   menu_ui: 0
   mysql: 0
@@ -54,9 +44,7 @@ module:
   views: 10
   standard: 1000
 theme:
+  olivero: 0
   claro: 0
   gin: 0
-  stable9: 0
-  bootstrap5: 0
-  tematyka: 0
 profile: standard

@@ -1,5 +1,5 @@
-uuid: 23f6cfbe-3f53-4181-944e-084aa883d552
-langcode: es
+uuid: 84f84cd1-f410-4de3-81be-bb898b12f11b
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: DyypzTfThX10FFQw-399qPfEbLLyrhXgQrKPVsmAoJ4
 id: user_block_user_action
-label: 'Bloquear al usuario o usuarios seleccionados'
+label: 'Block the selected user(s)'
 type: user
 plugin: user_block_user_action
 configuration: {  }

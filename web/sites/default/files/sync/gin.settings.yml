@@ -1,6 +1,5 @@
 _core:
   default_config_hash: UvSCt3S_NldJPFzvhSNOy9vWoPPFhmsmTC12vtVss9s
-langcode: es
 favicon:
   use_default: true
 features:
@@ -13,14 +12,14 @@ logo:
 third_party_settings:
   shortcut:
     module_link: true
-preset_accent_color: blue
-preset_focus_color: accent
+preset_accent_color: neutral
+preset_focus_color: gin
 enable_darkmode: '1'
-classic_toolbar: horizontal
+classic_toolbar: vertical
 secondary_toolbar_frontend: true
 high_contrast_mode: false
-accent_color: '#000000'
+accent_color: ''
 focus_color: ''
-layout_density: small
+layout_density: default
 show_description_toggle: false
 show_user_theme_settings: false

@@ -1,5 +1,5 @@
-uuid: 2f00e66c-d73f-4844-a8b9-b0f315703b94
-langcode: es
+uuid: 6187b764-3453-456c-bd58-aca03e1ce474
+langcode: en
 status: true
 dependencies:
   config:
@@ -38,7 +38,7 @@ settings:
     ckeditor5_codeBlock:
       languages:
         -
-          label: 'Texto sin formato'
+          label: 'Plain text'
           language: plaintext
         -
           label: C
@@ -53,7 +53,7 @@ settings:
           label: CSS
           language: css
         -
-          label: Diferencias
+          label: Diff
           language: diff
         -
           label: HTML

@@ -1,5 +1,5 @@
-uuid: 29e4a32e-f708-4b53-ab07-60ed736a6bb5
-langcode: es
+uuid: 8ea9df98-8b8b-4dd4-b5ec-abf7ce1bfd15
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: pG6QAggTrD7RQWb79PT3NH48GSvTiePly_l53f3OENs
 id: block-layout
-label: 'Página de Diseño de bloques'
+label: 'Block Layout Page'
 module: block
 routes:
   -
@@ -16,27 +16,27 @@ tips:
   block-layout:
     id: block-layout
     plugin: text
-    label: 'Diseño de bloque'
+    label: 'Block Layout'
     weight: 1
-    body: 'Los bloques son envoltorios de contenido renderizados en una area o región de una página web que pueden ser mostrados en regiones (tales como pie o cabecera) en su página.'
+    body: 'Blocks are boxes of content rendered into an area, or region, of a web page that can be displayed in regions (such as footer or sidebar) on your page.'
   place-block:
     id: place-block
     plugin: text
-    label: 'Colocar Bloques.'
+    label: 'Place Blocks'
     weight: 2
     selector: .button--small
-    body: 'Cualquier bloque personalizado o contribuido se puede agregar a una región en particular haciendo clic en el botón Colocar bloque. También se puede crear un nuevo bloque haciendo clic en Colocar bloque.'
+    body: 'Any custom or contributed block can be added to a particular region by clicking on a button Place block. A new block can also be created by clicking on Place Block'
   block-region:
     id: block-region
     plugin: text
-    label: 'Región de bloque'
+    label: 'Block Region'
     weight: 3
     selector: .block-region-select
-    body: 'Asigne o cambie la región de un bloque haciendo click aquí. Aparecerá una lista desplegable con todas las regiones. Puedes poner el mismo bloque en varias regiones.'
+    body: 'Assign or change the region of a block by clicking here. A dropdown list with all the regions will appear. You can place one block in multiple regions.'
   configure-block:
     id: configure-block
     plugin: text
-    label: 'Configurar bloque'
+    label: 'Configure Block'
     weight: 4
     selector: .dropbutton-widget
-    body: 'Al hacer clic en "Configurar", puede seguir adelante y editar el contenido del bloque, editar la configuración de visibilidad e incluso cambiar la ubicación de donde se muestra en su tema.'
+    body: 'By Clicking on "Configure" you can go ahead and edit the contents of the block, deal with the visibility settings and even change the placement of where it is on your theme.'

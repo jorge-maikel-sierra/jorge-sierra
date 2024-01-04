@@ -1,14 +1,14 @@
-uuid: 8f63a0c8-63fc-4cee-bede-1c2f4251646a
-langcode: es
+uuid: 587c32c0-993b-425a-a0ec-bac61498d1b7
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
 id: feedback
-label: 'Comentarios sobre el sitio web'
+label: 'Website feedback'
 recipients:
-  - dev@jorgesierra.dev
+  - admin@example.com
 reply: ''
 weight: 0
-message: 'Su mensaje ha sido enviado.'
+message: 'Your message has been sent.'
 redirect: ''

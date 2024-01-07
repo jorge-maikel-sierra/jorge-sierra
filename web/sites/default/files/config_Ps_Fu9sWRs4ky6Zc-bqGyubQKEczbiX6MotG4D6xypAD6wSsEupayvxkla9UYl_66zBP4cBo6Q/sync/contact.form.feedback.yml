@@ -1,0 +1,14 @@
+uuid: f5ef6cfb-4968-4c5a-919e-40ebcd4735a3
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Comentarios sobre el sitio web'
+recipients:
+  - dev@jorgesierra.dev
+reply: ''
+weight: 0
+message: 'Su mensaje ha sido enviado.'
+redirect: ''

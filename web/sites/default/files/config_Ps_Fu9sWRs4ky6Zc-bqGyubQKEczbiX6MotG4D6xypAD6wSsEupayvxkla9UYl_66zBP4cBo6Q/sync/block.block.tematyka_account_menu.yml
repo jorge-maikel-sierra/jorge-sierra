@@ -1,0 +1,31 @@
+uuid: 5b0d05d2-68fd-46a7-b640-48438b9fadca
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - tematyka
+_core:
+  default_config_hash: 5d8c-8SCEfsc4QVs7jOvDvXuGVzFgsM63M9WAffzui0
+id: tematyka_account_menu
+theme: tematyka
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

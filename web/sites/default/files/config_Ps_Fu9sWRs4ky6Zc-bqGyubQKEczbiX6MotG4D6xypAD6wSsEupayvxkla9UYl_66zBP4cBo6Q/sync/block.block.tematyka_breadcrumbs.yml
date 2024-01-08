@@ -1,0 +1,22 @@
+uuid: 5d8e373c-7b41-4b99-9233-dc295911e830
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tematyka
+_core:
+  default_config_hash: exHBmet6mMvPUBuzEzovSpL5e4bkxk6SHDBAXn8ziSM
+id: tematyka_breadcrumbs
+theme: tematyka
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

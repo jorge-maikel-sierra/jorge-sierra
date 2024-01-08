@@ -1,0 +1,21 @@
+[08-Jan-2024 17:51:56 America/Bogota] PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in /home/u998555632/domains/jorgesierra.dev/public_html/web/core/lib/Drupal/Core/Database/StatementWrapperIterator.php:111
+Stack trace:
+#0 /home/u998555632/domains/jorgesierra.dev/public_html/web/core/lib/Drupal/Core/Database/StatementWrapperIterator.php(111): PDOStatement->execute()
+#1 /home/u998555632/domains/jorgesierra.dev/public_html/web/core/lib/Drupal/Core/Database/Query/Delete.php(59): Drupal\Core\Database\StatementWrapperIterator->execute()
+#2 /home/u998555632/domains/jorgesierra.dev/public_html/web/core/lib/Drupal/Core/Lock/DatabaseLockBackend.php(170): Drupal\Core\Database\Query\Delete->execute()
+#3 /home/u998555632/domains/jorgesierra.dev/public_html/web/core/includes/bootstrap.inc(543): Drupal\Core\Lock\DatabaseLockBackend->releaseAll()
+#4 [internal function]: _drupal_shutdown_function()
+#5 {main}
+
+Next Drupal\Core\Database\DatabaseExceptionWrapper: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away: DELETE FROM "jssemaphore" 
+WHERE "value" = :db_condition_placeholder_0; Array
+(
+    [:db_condition_placeholder_0] => 42810706659c7c62256d09.71989579
+)
+ in /home/u998555632/domains/jorgesierra.dev/public_html/web/core/modules/mysql/src/Driver/Database/mysql/ExceptionHandler.php:56
+Stack trace:
+#0 /home/u998555632/domains/jorgesierra.dev/public_html/web/core/lib/Drupal/Core/Database/Query/Delete.php(63): Drupal\mysql\Driver\Database\mysql\ExceptionHandler->handleExecutionException()
+#1 /home/u998555632/domains/jorgesierra.dev/public_html/web/core/lib/Drupal/Core/Lock/DatabaseLockBackend.php(170): Drupal\Core\Database\Query\Delete->execute()
+#2 /home/u998555632/domains/jorgesierra.dev/public_html/web/core/includes/bootstrap.inc(543): Drupal\Core\Lock\DatabaseLockBackend->releaseAll()
+#3 [internal function]: _drupal_shutdown_function()
+#4 {main}

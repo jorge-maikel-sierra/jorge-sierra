@@ -14,6 +14,8 @@ settings:
   toolbar:
     items:
       - bold
+      - undo
+      - redo
       - italic
       - strikethrough
       - superscript
@@ -34,7 +36,15 @@ settings:
       - codeBlock
       - '|'
       - sourceEditing
+      - alignment
+      - code
   plugins:
+    ckeditor5_alignment:
+      enabled_alignments:
+        - center
+        - justify
+        - left
+        - right
     ckeditor5_codeBlock:
       languages:
         -

@@ -1,0 +1,22 @@
+uuid: 3c7f56a8-c335-4bcf-b59b-ebe426ae1dbd
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tematyka
+_core:
+  default_config_hash: 15X87YTLOcnuBSOoDWdzCNWn9gH7eAGKx2Hlf5Rd-0k
+id: tematyka_content
+theme: tematyka
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

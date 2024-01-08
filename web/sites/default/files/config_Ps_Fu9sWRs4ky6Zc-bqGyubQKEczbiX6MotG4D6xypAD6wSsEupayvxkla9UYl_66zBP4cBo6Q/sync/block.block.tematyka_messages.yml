@@ -1,0 +1,22 @@
+uuid: 64bcd70f-ac50-41b7-ae5a-110d49d766ad
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tematyka
+_core:
+  default_config_hash: S3kH1O7n8e_O3aau_hWh30yoNQgZZI-d3khQimxcAqk
+id: tematyka_messages
+theme: tematyka
+region: content
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 25b1c9ab-99e2-4540-a5c9-28a28552c282
+langcode: en
+status: true
+dependencies:
+  theme:
+    - tematyka
+_core:
+  default_config_hash: w25zZdW54yX9Tq5FAQ6RW81AAN1sS1Q0Q_SuZ07HE5w
+id: tematyka_local_tasks
+theme: tematyka
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

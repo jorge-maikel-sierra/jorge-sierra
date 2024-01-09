@@ -1,4 +1,4 @@
-uuid: 8387251d-d4fb-4399-a872-187c6664e23c
+uuid: 3f48f842-3a65-44e2-a9ff-2e805763fdf9
 langcode: en
 status: true
 dependencies:
@@ -15,9 +15,8 @@ dependencies:
     - system
     - taxonomy
     - toolbar
-    - tour
 _core:
-  default_config_hash: NtMgnXp0miNtJhag07NSjwdCm4zpJwhlDFs1HgyL4wI
+  default_config_hash: e_wG1u7SrGaJbY2-Szgbgl-c8T3kdirU3uTNq2c_QJQ
 id: content_editor
 label: 'Content editor'
 weight: 2
@@ -28,7 +27,6 @@ permissions:
   - 'access contextual links'
   - 'access files overview'
   - 'access toolbar'
-  - 'access tour'
   - 'administer url aliases'
   - 'create article content'
   - 'create page content'

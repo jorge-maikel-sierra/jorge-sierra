@@ -1,50 +1,27 @@
-# Omitir Configuracion .ddev
-.ddev
+# Application
+web/app/plugins/*
+!web/app/plugins/.gitkeep
+web/app/mu-plugins/*/
+web/app/themes/twentytwentyfour/
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+web/app/cache/*
 
-# Omitir configuracion del editor
-.editorconfig
- 
-# Omitir configuracion .gitattributes
-.gitattributes
+# WordPress
+web/wp
+web/.htaccess
 
-# Ignorar los volcados de base de datos SQL por defecto
-*.sql
-*.sql.gz
-/db-backups/
+# Logs
+*.log
 
-# Ignorar rutas que puedan contener archivos temporales
-/web/sites/*/translations
-/web/sites/*/tmp
-/web/sites/*/cache
+# Dotenv
+.env
+.env.*
+!.env.example
 
-# Ignorar archivos de configuración que puedan contener información sensible
-/web/sites/*/*settings*.php
-/web/sites/*/*services*.yml
-
-# Ignorar rutas que puedan contener contenido generado por el usuario
-/web/sites/*/private
-/web/sites/*/files-private
-
-# Ignore drupal core (si no versiona las fuentes de drupal)
-/web/modules/README.txt
-/web/profiles/README.txt
-/web/sites/README.txt
-/web/themes/README.txt
-/web/.csslintrc
-/web/.editorconfig
-/web/.eslintrc.json
-/web/.gitattributes
-/web/INSTALL.txt
-/web/LICENSE.txt
-/web/README.txt
-
-# Ignorar dependencias y scripts de proveedores
+# Composer
 /vendor
-/composer.phar
-/composer
-/robo.phar
-/robo
-/drush.phar
-/drush
-/drupal.phar
-/drupal
+
+# WP-CLI
+wp-cli.local.yml
